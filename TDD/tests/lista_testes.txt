@@ -1,0 +1,32 @@
+✓ Criação de uma empresa
+✓ Criação de 2 empresas
+✓ Criação de uma empresa duplicada deveria dar erro
+✓ Criação de um funcionário
+✓ Criação de 2 funcionários
+✓ Criação de um funcionário duplicado deveria dar erro
+✓ Inclusão de um funcionário em uma empresa
+✓ Inclusão de 2 funcionários em uma empresa
+✓ Inclusão de um funcionário em uma empresa 2 vezes deveria dar erro
+✓ Inclusão de um funcionário em 2 empresas
+✓ Criação de um projeto dentro de uma empresa
+✓ Criação de um projeto duplicado dentro de uma empresa deveria dar erro
+✓ Criação de 2 projetos em uma empresa
+✓ Inclusão de um funcionário em um projeto
+✓ Inclusão de 2 funcionários em um projeto
+✓ Inclusão de um funcionário em 2 projetos
+✓ Inclusão de um funcionário duplicado em um projeto deveria dar erro
+✓ Inclusão de um funcionário em um projeto que não é da sua empresa deveria dar erro
+✓ Criação de uma ocorrência em um projeto no estado aberta com um responsável com cada prioridade e de cada tipo
+✓ Criação de uma ocorrência duplicada deveria dar erro
+✓ Criação de uma ocorrência com um tipo inválido deveria dar erro
+✓ Criação de uma ocorrência com uma prioridade inválida deveria dar erro
+✓ Criação de uma ocorrência com responsável com 10 ocorrências deveria dar erro
+✓ Criação de uma ocorrência com responsável como funcionário que não está no projeto
+✓ Modificação do responsável pela ocorrência
+✓ Modificação do responsável pela ocorrência com 10 ocorrências deveria dar erro
+✓ Modificação de responsável para outro que não está no projeto lança erro
+✓ Modificação da prioridade da ocorrência
+✓ Modificação da prioridade da ocorrência para uma prioridade inválida deveria dar erro
+✓ Conclusão da ocorrência
+✓ Modificação de prioridade de ocorrência concluída deveria dar erro
+✓ Modificação do responsável por ocorrência concluída deveria dar erro
