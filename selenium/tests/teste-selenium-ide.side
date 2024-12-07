@@ -1,0 +1,66 @@
+{
+  "id": "fe614bbc-0d36-4c39-9822-755ed21bbea2",
+  "version": "2.0",
+  "name": "teste-selenium-ide",
+  "url": "https://www.google.com/",
+  "tests": [{
+    "id": "a3b52824-9e47-49db-9eee-90164c5a8083",
+    "name": "pesquisa-nome",
+    "commands": [{
+      "id": "461fa143-b9d9-427c-ac4a-89c9f7f34370",
+      "comment": "",
+      "command": "open",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4ebf49e9-351f-4e54-a56c-1c35cd9fab34",
+      "comment": "",
+      "command": "click",
+      "target": "id=APjFqb",
+      "targets": [
+        ["id=APjFqb", "id"],
+        ["name=q", "name"],
+        ["css=#APjFqb", "css:finder"],
+        ["xpath=//textarea[@id='APjFqb']", "xpath:attributes"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "298502ed-2188-4bb6-b10f-9947ddd4756b",
+      "comment": "",
+      "command": "type",
+      "target": "id=APjFqb",
+      "targets": [
+        ["id=APjFqb", "id"],
+        ["name=q", "name"],
+        ["css=#APjFqb", "css:finder"],
+        ["xpath=//textarea[@id='APjFqb']", "xpath:attributes"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "stephan krug"
+    }, {
+      "id": "36e07fed-eb9b-422a-9d92-acde28a05a8d",
+      "comment": "",
+      "command": "click",
+      "target": "name=btnK",
+      "targets": [
+        ["name=btnK", "name"],
+        ["css=center:nth-child(2) > .gNO89b", "css:finder"],
+        ["xpath=//input[@name='btnK']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "1f903555-091f-4caa-8eae-b08f945cb106",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["a3b52824-9e47-49db-9eee-90164c5a8083"]
+  }],
+  "urls": ["https://www.google.com/"],
+  "plugins": []
+}
